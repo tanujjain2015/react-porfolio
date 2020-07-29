@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from '../Modal';
+//import Modal from '../Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -28,10 +28,10 @@ const PhotoList = () => {
   //const currentPhotos = photos.filter((photo) => photo);
   const [currentPhoto, setCurrentPhoto] = useState();
   //const {name, category, description, imagelocation, gitlink} = photos;
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const toggleModal = (image, i) => {
-    setCurrentPhoto({...image, index: i});
-  };
+  //const [isModalOpen, setIsModalOpen] = useState(false);
+  //const toggleModal = (image, i) => {
+   // setCurrentPhoto({...image, index: i});
+  //};
 
   const filepath = (filePath) => {
     return require(`../../assets/image/${filePath}`)
@@ -39,9 +39,6 @@ const PhotoList = () => {
 
   return (
     <Container fluid>
-      {isModalOpen && (
-          <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
-      )}
           <Row>
               <Col> 
                   <br></br>
