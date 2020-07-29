@@ -1,11 +1,12 @@
 ##Portfolio
-Author: Tanuj Jain Dated: Mar-22-2020 Version: 1.2
+Author: Tanuj Jain  Version: 1.2
 
 Description:
 
 Portfolio site provides a quick overiew on my work profile and provide quick access to my resume.
 
-Website Access URL: https://github.com/tanujjain2015/react-porfolio
+Github Repo: https://github.com/tanujjain2015/react-porfolio
+WebURL Access:  https://tanujjain2015.github.io/react-porfolio/ 
 
 Change Log:
 
