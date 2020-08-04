@@ -1,0 +1,92 @@
+:root {
+  --light-brown: #b5651d;
+  --header-color: black;
+  --header-text-color: turquoise;
+  --blue-text: #003262;
+  --grid-border: black;
+  --background-color: #ececec;
+  --banner-text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner {
+  width: 100%;
+  height: 5%;
+  background-image: url("./assets/image/coverimage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h2 {
+  color: var(--banner-text);
+  text-align: right;
+  bottom: 0px;
+  margin: 0;
+  padding: 6%;
+  font-size: 60px;
+}
+
+.aboutmeblock {
+  width: 100%;
+  height: 7.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutme-header {
+  height: 100%;
+  width: 20%;
+  border-right-style: solid;
+  border-right-color: var(--blue-text) ;
+  border-right-width: 5px;
+  text-align: right;
+}
+
+.aboutme-header h2{
+  padding-right: 10px;
+  font-size: 36px;
+}
+
+.aboutme-info {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  width: 80%;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+
